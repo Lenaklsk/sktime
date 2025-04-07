@@ -1,8 +1,7 @@
-from itertools import product
-
 import numpy as np
 import pandas as pd
-from forecasting.compose._reduce import RecursiveReductionForecaster
+from itertools import product
+from sktime.forecasting.compose._reduce import RecursiveReductionForecaster
 from sklearn.linear_model import LinearRegression
 
 
